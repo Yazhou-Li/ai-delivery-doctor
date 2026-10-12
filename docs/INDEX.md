@@ -3,6 +3,7 @@
 ## Start here
 
 - [Getting Started](GETTING_STARTED.md)
+- [Contributor Onboarding](CONTRIBUTOR_ONBOARDING.md)
 - [3-Minute Showcase](SHOWCASE.md)
 - [三分钟 Showcase](SHOWCASE_CN.md)
 - [FAQ](FAQ.md)
