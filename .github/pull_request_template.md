@@ -1,28 +1,26 @@
 ## Problem
 
-What real delivery/acceptance problem does this change solve?
+What problem does this solve?
 
 ## Change
 
-What changed?
+Describe the implementation.
 
-## Evidence
+## Validation
 
-How was the behavior verified?
+Commands/tests run:
 
-```bash
-python -m unittest discover -s tests -v
-```
+## Evidence Impact
 
-Add focused commands/results when relevant.
+Does this change modify evidence format, checks, or acceptance behavior?
 
-## Boundaries
+## Security Review
 
-What does this result **not** prove?
+- [ ] No secrets
+- [ ] No customer data
+- [ ] No unsafe automatic actions
 
-## Safety / privacy
+## AI Assistance
 
-- [ ] No secrets or credential values added
-- [ ] No private customer endpoints/data added
-- [ ] Diagnostic behavior remains read-only unless explicitly scoped otherwise
-- [ ] New behavior has tests or a documented validation path
+- [ ] None
+- [ ] Used AI assistance (describe briefly)

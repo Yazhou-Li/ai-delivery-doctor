@@ -1,0 +1,27 @@
+{
+  "schema": "aidoc-v1",
+  "name": "contributor-hello-world",
+  "checks": [
+    {
+      "id": "repo-metadata",
+      "stage": "environment",
+      "type": "file",
+      "path": "../pyproject.toml",
+      "required": true
+    },
+    {
+      "id": "python-runtime",
+      "stage": "environment",
+      "type": "executable",
+      "name": "python",
+      "required": true
+    },
+    {
+      "id": "optional-openai-key",
+      "stage": "model",
+      "type": "env",
+      "name": "OPENAI_API_KEY",
+      "required": false
+    }
+  ]
+}
