@@ -7,6 +7,14 @@
 - [三分钟 Showcase](SHOWCASE_CN.md)
 - [FAQ](FAQ.md)
 
+## Getting started
+
+- [Contributor onboarding](ONBOARDING.md)
+
+## Examples
+
+- [Synthetic delivery contracts](../examples/README.md)
+
 ## Core concepts
 
 - [Architecture](ARCHITECTURE.md)
