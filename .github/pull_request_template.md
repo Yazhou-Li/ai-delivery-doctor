@@ -26,6 +26,7 @@ What does the change prove? What does it **not** prove? State any Windows, macOS
 - [ ] Examples and test fixtures are synthetic; probes are explicitly scoped.
 - [ ] No arbitrary command execution, unapproved network activity, system mutation, or weakened privacy defaults.
 - [ ] Any diagnostic reports or evidence attached to this PR have been reviewed and sanitized for public sharing.
+- [ ] No hidden execution via editor tasks, install hooks, obfuscated scripts, or executable files disguised as assets; any required binary files are justified and verifiable.
 
 ## AI assistance
 
