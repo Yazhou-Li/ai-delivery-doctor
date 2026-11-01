@@ -66,6 +66,19 @@ ordered delivery contract
 
 Avoid coupling the core model to one Agent framework, model provider, MCP client, RAG library, or cloud.
 
+## Safe and reviewable changes
+
+Keep documentation-only changes free of executable behavior. Do not add
+workspace/editor auto-run tasks, install hooks, obfuscated scripts, or executable
+payloads disguised as fonts, images, or other assets. Avoid unrelated binary
+files; if a binary asset is genuinely necessary, explain its provenance,
+license, purpose, and how reviewers can verify it.
+
+Maintainers should inspect the complete changed-file list and workflow changes
+before running code from an unfamiliar fork or approving its CI. A green check
+does not replace source review. Contributors should never need production
+credentials or customer infrastructure to validate a public PR.
+
 ## Pull requests
 
 A good PR should make it easy to answer:
